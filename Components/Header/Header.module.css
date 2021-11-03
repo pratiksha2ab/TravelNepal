@@ -1,0 +1,75 @@
+.wrapper{
+    background-color: black;
+}
+.info{
+    
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.leftbar{
+    display: flex;
+    justify-content: space-around;
+    color: #fff;
+    width: 100px;
+}
+.rightbar{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.rightbar>a{
+    color: white !important;
+    padding-left: 15px;
+    padding-right: 7px;
+}
+.navWrapper{
+    background-color: beige;
+    height:600px;
+   background-image:url("/Norco_Range.png");
+   background-repeat:no-repeat;
+   background-size:cover;
+   padding:0px 80px;
+
+}
+.navbar{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:8px 0px;
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+/* .logo{
+    display: flex;
+    padding: 0px,10px,0px,10px;
+} */
+.navMenu{
+    display: flex;
+    justify-content: space-between;
+    padding :10px;
+    
+
+     
+    
+}
+
+.navMenu>span:hover{
+    color: rgb(143,136,136);
+}
+.dropdown{
+    
+    font-size: 18px;
+    font-weight: 550px;
+    padding-left: 40px;
+    padding-right: 20px;
+    color:black;
+}
